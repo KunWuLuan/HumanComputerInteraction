@@ -4,10 +4,18 @@ aside,div,artical{
 	display:inline;
 }
 body{
-	background-image: url(./img/background.jpg);
+	background-color: white;
+	/*background-image: url(./img/background1.jpg);*/
 }
 li {
 	list-style-type:none;
+}
+.news-item{
+	margin-bottom: 4px;
+}
+.news-topic{
+	color: #6CF8F1;
+	text-decoration : none;
 }
 .top{
 	position:fixed;
@@ -25,6 +33,7 @@ li {
     line-height: 50px;
     height: 50px;
     position: relative;
+	margin-left:2%;
 }
 .top-menu{
 	display: inline;
@@ -52,44 +61,56 @@ li {
 	height:100%;
 	left:0px;
 }
+.visitor-item{
+	margin-bottom: 4px;
+}
 .menu-item{
 	height:50px;
 	text-align: center;
 	color: white;
 }
+.avator{
+	height:50px;
+	border-radius: 25px;
+}
 #p{
 	margin:auto;
-	/*margin-left:20%;
-	margin-right:20%;*/
 	width:100%;
 	height:500px;
 }
 #picture{
 	display:block;
-	/*padding-left:10px;
-	padding-right:10px;*/
 	width:100%;
-	/*height:300px;*/
-	/*background-color: red;*/
 }
 #news{
+	color: white;
 	display:inline;
 	margin-left:0%;
-	/*padding:5px;*/
-	width:50%;
+	padding-left:2%;
+	width:36%;
 	height:300px;
-	background-color:#D9D7D7;
+	background-color:#1B1B1B;
 	float:left;
-	border-radius:15px;
 }
 #post{
+	color: white;
 	display:inline;
-	margin-right:0%;
-	/*padding:5px;*/
-	width:50%;
+	margin-left:1%;
+	padding-left:2%;
+	width:36%;
 	height:300px;
-	background-color: green;
+	background-color:#1B1B1B;
 	float:left;
-	border-radius:15px;
 }
+#message{
+	color: white;
+	display:inline;
+	margin-left:1%;
+	padding-left:2%;
+	width:20%;
+	height:300px;
+	background-color:#1B1B1B;
+	float:left;
+}
+
 

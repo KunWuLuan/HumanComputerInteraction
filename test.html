@@ -1,0 +1,77 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>win01</title>
+<style type="text/css">
+/*使用display属性: 如果取值为none就是隐藏标签*/
+
+table td div {
+    display:none;
+}
+
+.open {
+    display:block;
+}
+.close {
+    display:none;
+}
+</style>
+</head>
+<script type="text/javascript">
+    function openDiv(a) {
+        var targetDiv = a.parentNode.getElementsByTagName("div")[0];
+        var divs = document.getElementsByTagName("div");
+        for (var i = 0; i < divs.length; i++) {
+            if (divs[i] == targetDiv) divs[i].className="open";
+            else divs[i].className="close";
+        }
+    }
+</script>
+<body>
+<table>
+    <tr>
+        <td>
+            <a href="javascript:void(0)" onclick="openDiv(this)">君王好友</a>
+            <div>
+                秦始皇<br/>
+                刘邦<br/>
+                李世民<br/>
+                康熙<br/>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="javascript:void(0)" onclick="openDiv(this)">三国好友</a>
+            <div>
+                刘备<br/>
+                关羽<br/>
+                张飞<br/>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="javascript:void(0)" onclick="openDiv(this)">美女好友</a>
+            <div>
+                西施<br/>
+                貂蝉<br/>
+                杨贵妃<br/>
+                王昭君<br/>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="javascript:void(0)" onclick="openDiv(this)">IT好友</a>
+            <div>
+                马云<br/>
+                李开复<br/>
+                俞敏洪<br/>
+                冯危<br/>
+            </div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
