@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header-layout{
 	width: 150px;
 	float: right;
@@ -83,3 +84,90 @@
 	margin-left: 20px;
 }
 
+=======
+.header-layout{
+	width: 150px;
+	float: right;
+	height: 46px;
+}
+.main-layout{
+	height:	700px;
+	width: 1300px;
+	float: left;
+	background-color: #FCFCFC;
+}
+.pageLeft{
+	height: 600px;
+	width: 400px;
+	float: left;
+}
+
+.data_grid{
+	padding-left: 100px;
+	padding-right: 18px;
+	height: 100px;
+	width: 400px;
+}
+
+.picMenu-layout{
+	height: 400px;
+	width: 400px;
+}
+
+.photo-layout{
+	height: 250px;
+	width: 400px;
+	float: left;
+}
+
+.editPhoto-layout{
+	height:100px;
+	width: 400px;
+	text-align: center;
+}
+
+.pageRight{
+	height: 700px;
+	width: 900px;
+	float: left;
+}
+.organize-layout{
+	height: 500px;
+	width:	900px;
+	float: left;
+}
+.subOrganize-icon-layout{
+	float: left;
+	height: 50px; 
+	width: 80px;
+}
+.subOrganize-value-layout{
+	float: left;
+	height: 50px;
+	width: 350px;
+	margin-top: 10px;
+}
+.subOrganize-edit-layout{
+	float: left;
+	height: 50px;
+	width: 500px;
+	margin-top: 13px;	
+}
+.subOrganize-textarea-layout{
+	width: 330px;
+	height: 200px;
+	float: left;
+}
+.textarea-layout{
+	width: 330px;
+	height: 200px;	
+}
+.subOrganize-editresume-layout{
+	float: right;
+	height: 200px;
+	width: 500px;
+	margin-top: 190px;	
+	margin-left: 20px;
+}
+
+>>>>>>> 93e44693248e1817e94b087aa618814331b993b8
