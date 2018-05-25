@@ -3,7 +3,6 @@ body {
     font-family: "Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
     min-width: 320px;
     color: #000;
-    /*background-color: #FFF;*/
 }
 
 h1, h2, h3, h4, h5, h6, ol, p, ul {
@@ -30,13 +29,7 @@ h2{
 }
 .c-uhfh
 {
-	background-image: initial;
-	background-position-x: initial;
-	background-position-y: initial;
-	background-size: initial;
-	background-attachment: initial;
-	background-origin: initial;
-	background-clip: initial;
+	
 	background-color: rgb(0,103,184);
 	height: 50px;
 	
@@ -88,8 +81,7 @@ h2{
 }
 
 .x-hidden-focus{
-	outline-color: transparent !important;
-	outline-style: none !important;
+	outline-color: transparent !important
 }
 
 .msame_Header_picframe{
@@ -106,7 +98,7 @@ h2{
 	cursor: pointer;
 	font-size: 14px;
 	border-width: 1px;
-	border-style: solid;
+	border-sytle: solid;
 	border-bottom-style: none;
 	border-color: transparent;
 	width: 100%;
@@ -153,6 +145,7 @@ h2{
 	border-radius: 50%;
 	display: block;
 	max-width: 100%;
+	vertical-align: middle;
 	border: 0;
 	box-sizing: inherit;
 }
@@ -182,8 +175,7 @@ a.c-hyperlink{
 .mee-no-picture{
 	width: 200px;
 	height: 200px;
-	margin: auto;
-	color: #21bbee;
+	margin: auto；
 }
 
 .mee-icon{
@@ -235,7 +227,6 @@ a.c-hyperlink{
 }
 .media-body{
 	display: block;
-	-webkit-box-flex: 1;
 	flex-grow: 1;
 	min-width: 0;
 }
