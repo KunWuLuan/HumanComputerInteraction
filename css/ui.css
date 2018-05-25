@@ -1,0 +1,264 @@
+body {
+    font-size: 15px;
+    font-family: "Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-width: 320px;
+    color: #000;
+    background-color: #FFF;
+	
+}
+
+h1, h2, h3, h4, h5, h6, ol, p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a{
+	cursor: pointer;
+	color: #006cd8;
+	background-color: transparent;
+}
+div{
+	display: block;
+}
+h2{
+	display: block;
+	font size: 1.5em;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font weight: bold;
+}
+.c-uhfh
+{
+	background:
+		background-image: initial;
+		background-position-x: initial;
+		background-position-y: initial;
+		background-size: initial;
+		background-repeat-x: initial;
+		background-repeat-y: initial;
+		background-attachment: initial;
+		background-origin: initial;
+		background-clip: initial;
+		background-color: rgb(0,103,184);
+	height: 50px;
+	
+}
+
+.c-uhf-nav-link{
+	display: inline-block;
+	padding: 0px 26px;
+	line-height: 48px;
+	vertical-align: top;
+	margin: 1px;
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+.c-uhfh .f-current {
+	font-weight: 700;
+}
+
+.content-uhf{
+	font-size: 15px;
+	font-family: "Segoe UI", SegoeUI, "Microsoft YaHei", 
+	微软雅黑, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	min-width: 320px;
+	color: rgb(0,0,0);
+	background-color: rgb(255, 255, 255);
+}
+
+
+.c-logo{
+	height: 48px;
+	float: left;
+	position: relative;
+	margin: 1px;
+	padding: 7px 17px;
+	font-size: 15px;
+	color: white;
+}
+.c-logo span{
+	font-size: 24px;
+	lint-height: 28px;
+	display: block;
+	font-weight: 200;
+}
+
+.element{
+	height: 36px;
+	width: 36px;
+}
+
+.x-hidden-focus{
+	outline-color: transparent !important
+	outline-style: none !important;
+}
+
+.msame_Header_picframe{
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.msame_Header_piccont{
+	padding_left: 12px;
+}
+
+.msame_Header{
+	display: inline-block;
+	cursor: pointer;
+	font-size: 14px;
+	border-width: 1px;
+	border-sytle: solid;
+	border-bottom-style: none;
+	border-color: transparent;
+	width 100%;
+}
+
+.msame_Header_name{
+	font-size: 15px;
+    margin-top: 1px;
+    padding: 0 12px;
+    line-height: 46px;
+    height: 46px;
+    color: rgba(0,0,0,.8);
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	position: relative;
+}
+
+
+
+.amc-heading-1{
+	font-size: 28px;
+	font-weight: 200;
+	line-height: 1.22em;
+	padding: 30px 0 2px 0;
+}
+
+
+
+.profile-landing{
+	padding-top: 25px;
+}
+
+.profile-section{
+	padding-left: 50px;
+	float: left;
+}
+
+.person-graphic{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	border-radius: 50%;
+	display: block;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	box-sizing: inherit;
+}
+
+.x-screen-reader {
+    position: absolute!important;
+    overflow: hidden!important;
+    clip: rect(1px,1px,1px,1px)!important;
+    width: 1px!important;
+    height: 1px!important;
+    border: none!important;
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.edit-button{
+	margin-left: 120px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+a.c-hyperlink{
+	color: #0067B8;
+	text-decoration: none;
+}
+
+.mee-no-picture{
+	width: 200px;
+	height: 200px;
+	margin: auto；
+	color: #21bbee;
+}
+
+.mee-icon{
+	font-size: 50px;
+	position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Membership Icons';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.person-name-section{
+	margin-bottom: 30px;
+	float: left;
+	min-height: 1px;
+	width: 100%;
+	box-sizing: border-box;
+	zoom: 1;
+}
+.person-name {
+    margin-top: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.c-heading-2 {
+    font-size: 46px;
+    line-height: 56px;
+    padding: 37px 0 3px;
+    font-weight: 100;
+}
+
+.mee-icon {
+    position: relative;
+    height: 36px;
+	width: 36px;
+}
+
+.media-body-wrapper{
+	min-height: 32px;
+	display: flex;
+	flex-grow: 1;
+	min-width: 0;
+	color: #666;
+}
+.media-body{
+	display: block;
+	-webkit-box-flex: 1;
+	flex-grow: 1;
+	min-width: 0;
+}
+.personal-info{
+	width: 50%;
+	float: left;
+	margin-right: 10px;
+}
+.mee-media{
+	color: #000;
+	padding 0;
+}
+.c-heading-6{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+}
+.personal-edit-links{
+	line-height: 100%;
+	vertical-align: bottom;
+}
